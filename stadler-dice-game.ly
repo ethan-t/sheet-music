@@ -22,8 +22,20 @@ upper = \relative c''' {
   a'8 a, g' g, fis'4 |
   g, g'8 e g16 fis e d |
   fis8 e16 d <cis a>4 <b gis> |
-  b' b16 a g fis e d cis b
-
+  b' b16 a g fis e d cis b |
+  <a fis>4. <g e>8 <fis d>4 |
+  d2. |
+  b16 cis d cis a8 a'4 cis,8 |
+  b2 b'16 a g fis |
+  dis e8. b'16 cis,8. d16 a8. |
+  a'16 fis cis cis a4 r |
+  cis8 e r e d16 cis b a |
+  e'8 fis g a b4 |
+  b,8 <d fis> <e cis> <d b> <cis a> <gis b> |
+  g'16 a b g e fis g e fis4 |
+  b,16 b' a g <fis d>4 <e cis> |
+  a,2. |
+ \relative c { }
 }
 
 lower = \relative c, {
@@ -43,6 +55,7 @@ lower = \relative c, {
   <e,, e'>4 <cis' b,> <d d,> |
   d' e e, |
   g, g' r |
+  \relative c { }
 }
 
 \score {
