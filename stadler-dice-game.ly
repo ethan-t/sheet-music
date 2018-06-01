@@ -23,7 +23,7 @@ upper = \relative c''' {
   g, g'8 e g16 fis e d |
   fis8 e16 d <cis a>4 <b gis> |
   b' b16 a g fis e d cis b |
-  <a fis>4. <g e>8 <fis d>4 |
+  <a' fis>4. <g e>8 <fis d>4 |
   d2. |
   b16 cis d cis a8 a'4 cis,8 |
   b2 b'16 a g fis |
@@ -55,6 +55,10 @@ lower = \relative c, {
   <e,, e'>4 <cis' b,> <d d,> |
   d' e e, |
   g, g' r |
+  r4 a d |
+  d, a d, |
+  r <g' cis e> <g cis e> |
+  \tuplet 3/1 { d8 fis b } \tuplet 3/1 { d, fis b } \tuplet 3/1 { d, fis b } |
   \relative c { }
 }
 
