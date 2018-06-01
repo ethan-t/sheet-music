@@ -43,7 +43,10 @@ upper = \relative c''' {
   \relative c'' { d8 e fis g a4| }
   \relative c'' { a2. | }
  \relative c' { << e2 e' >> << e4 e, >> }
- \relative c' {  }
+ \relative c'' { fis8. g16 e8. fis16 d4 | }
+ \relative c'' { a2. }
+ \relative c'' { a'8 d, cis16 d e cis d4 | }
+ \relative c'' { a8. cis16 a8.  }
 }
 
 lower = \relative c, {
@@ -79,9 +82,13 @@ lower = \relative c, {
   \relative c' { r <g g,> <a a,> | }
   \relative c' { <g, g'> <b b'> <g g'> | }
   \relative c { d d' r | }
-  \relative c' { r d,8 e fis4 | }
-  \relative c' { a e a, | }
-  \relative c' { bes8 a g fis e }
+  \relative c' { r4 d,8 e fis4 | }
+  \relative c' { a4 e a, | }
+  \relative c' { r8 bes a g fis e | }
+  \relative c { << { d2. } \\ { a'4 g fis } >> | }
+  \relative c' { r8 a e cis a4}
+  \relative c' {  << { a2. } \\ { fis8 g fis } >>  | }
+ \relative c { <<a4 a'>> r << b, b' >> }
 }
 
 \score {
