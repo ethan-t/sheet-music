@@ -28,7 +28,7 @@ upper = \relative c''' {
   \relative c'' { b16 cis d cis a8 a'4 cis,8 | }
   \relative c'' { b2 b'16 a g fis | }
   \relative c'' { dis e8. b'16 cis,8. d16 a8. | }
-  \relative c'' { a'16 fis cis cis a4 r | }
+  \relative c'' { a'16 fis cis d a4 r | }
   \relative c'' { cis8 e r e d16 cis b a | }
   \relative c' { e'8 fis g a b4 | }
   \relative c''' { b,8 <d fis> <e cis> <d b> <cis a> <gis b> | }
@@ -36,7 +36,7 @@ upper = \relative c''' {
   \relative c''' { b,16 b' a g <fis d>4 <e cis> | }
   \relative c'' { a2. | }
   \relative c'' { a4 a'16 g fis e dis4 | }
-  \relative c''' { g8. g16 e8. g16 cis,8. e16 | }
+  \relative c''' { g8. a16 e8. g16 cis,8. e16 | }
   \relative c'' { d8 b' a g fis e | }
   \relative c'' { fis8 d ais b cis d | }
   \relative c'' { d8 e fis g a4| }
@@ -49,7 +49,7 @@ lower = \relative c, {
   \key d \major
   \time 3/4
 
-  \relative c, { <fis fis'>4 <g g'> <a' g,> | }
+  \relative c, { <fis fis'>4 <g g'> <a' a,> | }
   \relative c { << { cis2. } \\ { r4 e a } >> | }
   \relative c { d4 fis8 a d4 | }
   \relative c' { <g g,> <fis fis,> <e, e'> | }
@@ -72,7 +72,7 @@ lower = \relative c, {
   \relative c { d e e, | }
   \relative c, { <e e'> <cis'' cis,> <d, d'> | }
   \relative c' { g a a, | }
-  \relative c' { a e8. d16 a4 | }
+  \relative c' { a e8. cis16 a4 | }
   \relative c { <fis fis,> r <b b,> | }
   \relative c' { r <g g,> <a a,> | }
   \relative c' { <g, g'> <b b'> <g g'> | }
