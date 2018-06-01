@@ -58,8 +58,10 @@ lower = \relative c, {
   r4 a d |
   d, a d, |
   r <g' cis e> <g cis e> |
-  \tuplet 3/1 { d8 fis b } \tuplet 3/1 { d, fis b } \tuplet 3/1 { d, fis b } |
-  \relative c { }
+  \tuplet 3/1 { d8[ fis b] } \tuplet 3/1 { d,[ fis b] } \tuplet 3/1 { d,[ fis b] } |
+  { r4 g fis } \\ { r4 a2. } |
+  r r r |
+  r1
 }
 
 \score {
