@@ -27,14 +27,20 @@ upper = \relative c''' {
   \relative c'' { d2. | }
   \relative c'' { b16 cis d cis a8 a'4 cis,8 | }
   \relative c'' { b2 b'16 a g fis | }
-  \relative c' { dis e8. b'16 cis,8. d16 a8. | }
+  \relative c'' { dis e8. b'16 cis,8. d16 a8. | }
   \relative c'' { a'16 fis cis cis a4 r | }
   \relative c'' { cis8 e r e d16 cis b a | }
   \relative c' { e'8 fis g a b4 | }
   \relative c''' { b,8 <d fis> <e cis> <d b> <cis a> <gis b> | }
   \relative c'' { g'16 a b g e fis g e fis4 | }
   \relative c''' { b,16 b' a g <fis d>4 <e cis> | }
-  \relative c''' { a,2. | }
+  \relative c'' { a2. | }
+  \relative c'' { a4 a'16 g fis e dis4 | }
+  \relative c''' { g8. g16 e8. g16 cis,8. e16 | }
+  \relative c'' { d8 b' a g fis e | }
+  \relative c'' { fis8 d ais b cis d | }
+  \relative c'' { d8 e fis g a4| }
+  \relative c'' { a2. | }
  \relative c { }
 }
 
@@ -58,10 +64,21 @@ lower = \relative c, {
   \relative c' { r4 a d | }
   \relative c' { d, a d, | }
   \relative c { r <g' cis e> <g cis e> | }
-  \relative c { \tuplet 3/2 8 { d8[ fis b] d,[ fis b] d,[ fis b] } | }
+  \relative c { \tuplet 3/2 {d8 fis b} \tuplet 3/2 {d, fis b} \tuplet 3/2 {d, fis b} | }
   \relative c' { << { a2. } \\ { r4 g fis } >> | }
-  \relative c, { r r r | }
-  \relative c, { r1 }
+  \relative c { r4 \tuplet 3/2 {fis8 a d} \tuplet 3/2 {fis, a d} | }
+  \relative c' { r4 <g a> <g a> | }
+  \relative c { r4 e8 fis g4 | }
+  \relative c { d e e, | }
+  \relative c, { <e e'> <cis'' cis,> <d, d'> | }
+  \relative c' { g a a, | }
+  \relative c' { a e8. d16 a4 | }
+  \relative c { <fis fis,> r <b b,> | }
+  \relative c' { r <g g,> <a a,> | }
+  \relative c' { <g, g'> <b b'> <g g'> | }
+  \relative c { d d' r | }
+  \relative c' { r d,8 e fis4 | }
+  \relative c' { a e a, | }
 }
 
 \score {
