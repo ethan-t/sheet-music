@@ -45,8 +45,11 @@ upper = \relative c''' {
  \relative c' { << e2 e' >> << e4 e, >> }
  \relative c'' { fis8. g16 e8. fis16 d4 | }
  \relative c'' { a2. }
- \relative c'' { a'8 d, cis16 d e cis d4 | }
- \relative c'' { a8. cis16 a8.  }
+ \relative c''' { a8 d, cis16 d e cis d4 | }
+ \relative c'' { a'8. c16 fis,8. a16 dis,8. fis16 | }
+ \relative c'' { fis16 a fis d cis4 b | }
+ \relative c'' { e8. a16 cis,8. e16 a,8. a'16 | }
+ \relative c''' { a8 fis g e fis d }
 }
 
 lower = \relative c, {
@@ -88,7 +91,14 @@ lower = \relative c, {
   \relative c { << { d2. } \\ { a'4 g fis } >> | }
   \relative c' { r8 a e cis a4}
   \relative c' {  << { a2. } \\ { fis8 g fis } >>  | }
- \relative c { <<a4 a'>> r << b, b' >> }
+ \relative c { <<a4 a'>> r << b, b' >> | }
+ \relative c' {  << { a2 gis4 } \\ { d4 g2 } >> | }
+ \relative c' { << cis4 cis, >> << a' a, >> r4 | }
+ \relative c { fis8 d' e, cis' d, d' | }
+ \relative c { << e8 g >> r << fis a >> r << g b >> r | }
+ \relative c { \tuplet 3/2 {d8 fis a} \tuplet 3/2 {d, fis a} \tuplet 3/2 {d, fis a} | }
+ \relative c { \tuplet 3/2 {a8 e' a} \tuplet 3/2 {cis, e a} \tuplet 3/2 {a, e' a} | }
+
 }
 
 \score {
