@@ -10,6 +10,7 @@ upper = \relative c''' {
   \clef treble
   \key d \major
   \time 3/4
+  \override Score.BarNumber.break-visibility = ##(#t #t #t)
 
   \relative c''' { a8 fis g e cis e | }
   \relative c'' { r e, gis a cis e | }
@@ -41,7 +42,8 @@ upper = \relative c''' {
   \relative c'' { fis8 d ais b cis d | }
   \relative c'' { d8 e fis g a4| }
   \relative c'' { a2. | }
- \relative c { }
+ \relative c' { << e2 e' >> << e4 e, >> }
+ \relative c' {  }
 }
 
 lower = \relative c, {
@@ -79,6 +81,7 @@ lower = \relative c, {
   \relative c { d d' r | }
   \relative c' { r d,8 e fis4 | }
   \relative c' { a e a, | }
+  \relative c' { bes8 a g fis e }
 }
 
 \score {
