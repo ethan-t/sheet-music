@@ -58,7 +58,7 @@ lower = \relative c, {
   \relative c' { r4 a d | }
   \relative c' { d, a d, | }
   \relative c { r <g' cis e> <g cis e> | }
-  \relative c { \tuplet 3/1 { d8[ fis b] }  \tuplet 3/1 { d,[ fis b] } \tuplet 3/1 { d,[ fis b] } | }
+  \relative c { \tuplet 3/2 8 { d8[ fis b] d,[ fis b] d,[ fis b] } | }
   \relative c' { << { a2. } \\ { r4 g fis } >> | }
   \relative c, { r r r | }
   \relative c, { r1 }
