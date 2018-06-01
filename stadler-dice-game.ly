@@ -49,7 +49,14 @@ upper = \relative c''' {
  \relative c'' { a'8. c16 fis,8. a16 dis,8. fis16 | }
  \relative c'' { fis16 a fis d cis4 b | }
  \relative c'' { e8. a16 cis,8. e16 a,8. a'16 | }
- \relative c''' { a8 fis g e fis d }
+ \relative c''' { a8 fis g e fis d | }
+ \relative c''' { r8 b r dis, r e | }
+  \relative c'' { d2 b'16 a gis a | }
+  \relative c'' { cis4 e a | }
+  \relative c'' { b8. d16 cis8. e16 d8. fis16 | }
+  \relative c'' { b16 d cis b cis e d cis d4 | }
+  \relative c'' { a8. d16 << d4 fis >> << cis e >> | }
+  \relative c'' { cis16 e d cis \grace cis b8 a16 g a4 | }
 }
 
 lower = \relative c, {
@@ -60,30 +67,30 @@ lower = \relative c, {
   \relative c, { <fis fis'>4 <g g'> <a' a,> | }
   \relative c { << { cis2. } \\ { r4 e a } >> | }
   \relative c { d4 fis8 a d4 | }
-  \relative c' { <g g,> <fis fis,> <e, e'> | }
+  \relative c' { << g g, >> << fis fis, >> << e, e' >> | }
   \relative c { a8 cis e a a,4 | }
-  \relative c' { <b b,> <g, g'> <fis' fis,> | }
-  \relative c { r <cis' e> <cis e> | }
+  \relative c' { << b b, >> << g, g' >> << fis' fis, >> | }
+  \relative c { r << cis' e >> <<cis e>> | }
   \relative c' { r8 d, a fis d4 | }
   \relative c, { fis'8 fis' e, e' d, d' | }
-  \relative c, { <e e'>4 <cis' cis,> <d d,> | }
+  \relative c, { << e e'4 >> <<cis' cis,>> <<d d,>> | }
   \relative c' { d e e, | }
   \relative c { g g' r | }
   \relative c' { r4 a d | }
   \relative c' { d, a d, | }
-  \relative c { r <g' cis e> <g cis e> | }
+  \relative c { r << g' cis e >> << g cis e >> | }
   \relative c { \tuplet 3/2 {d8 fis b} \tuplet 3/2 {d, fis b} \tuplet 3/2 {d, fis b} | }
   \relative c' { << { a2. } \\ { r4 g fis } >> | }
   \relative c { r4 \tuplet 3/2 {fis8 a d} \tuplet 3/2 {fis, a d} | }
   \relative c' { r4 <g a> <g a> | }
   \relative c { r4 e8 fis g4 | }
   \relative c { d e e, | }
-  \relative c, { <e e'> <cis'' cis,> <d, d'> | }
+  \relative c, { << e e' >> << cis'' cis, >> << d, d' >> | }
   \relative c' { g a a, | }
   \relative c' { a e8. cis16 a4 | }
-  \relative c { <fis fis,> r <b b,> | }
-  \relative c' { r <g g,> <a a,> | }
-  \relative c' { <g, g'> <b b'> <g g'> | }
+  \relative c { << fis fis, >> r << b b, >> | }
+  \relative c' { r << g g, >> << a a, >> | }
+  \relative c' { << g, g' >> << b b'>> << g g' >> | }
   \relative c { d d' r | }
   \relative c' { r4 d,8 e fis4 | }
   \relative c' { a4 e a, | }
@@ -98,7 +105,10 @@ lower = \relative c, {
  \relative c { << e8 g >> r << fis a >> r << g b >> r | }
  \relative c { \tuplet 3/2 {d8 fis a} \tuplet 3/2 {d, fis a} \tuplet 3/2 {d, fis a} | }
  \relative c { \tuplet 3/2 {a8 e' a} \tuplet 3/2 {cis, e a} \tuplet 3/2 {a, e' a} | }
-
+ \relative c' { << g4 g, >> << e e' >> << fis fis, >> | }
+ \relative c {  << { d2 d4 } \\ { g4 e fis } >> | }
+ \relative c { r4 a'8 a, a' a, }
+  \relative c { a4 e' a | }
 }
 
 \score {
